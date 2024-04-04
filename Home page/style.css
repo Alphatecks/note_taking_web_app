@@ -1,0 +1,242 @@
+
+.sidebar {
+    margin: auto;
+    padding: 0;
+    width: 250px;
+    background-color: #4b4b8b;
+    position: fixed; 
+     height: 100%;
+    overflow: auto;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #02021a;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  
+  .person-img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .span-class{
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    left: 55px;
+    color: #fff;
+  }
+  .arrow{
+    position: absolute;
+    right: 35px;
+    padding-left: 0px;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 12px;
+  }
+  .arrow1{
+    position: absolute;
+    right: 15px;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 12px;
+  }
+  .search-button{
+    width: 85%;
+    height: 35px;
+    border: none;
+    border-radius: 40px;
+    background-color: #02021a;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .search-button1{
+    width: 85%;
+    height: 35px;
+    border: none;
+    border-radius: 40px;
+    background-color: #cf1a1a;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .sticky-note, .lists, .record, .trash{
+    padding-left: 20px;
+    color: #ffffff;
+    padding-right: 10px;
+  }
+  .note, .list, .recording{
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 40px;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+    padding-right: 50px;
+    
+    
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+
+  .trashs{
+    color: #fff;
+  }
+  .trash{
+    padding-top: 40px;
+  }
+  
+  
+  .wrapper{
+    width: 1000px;
+    margin: auto;
+
+  }
+  .container{
+    padding-top: 60px;
+    margin-left: 230px;
+  }
+  .case-link{
+    margin-left: 80px;
+    padding-left: 20px;
+    float: left;
+    width: 452px;
+    height: 120px;
+    border-radius: 28px;
+    margin: 20px 10px 0;
+   color: #02021a;
+  }
+  .app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    /* justify-content: center; */
+    padding: 50px;
+  }
+  .app-id{
+    display: flex;
+  }
+  .notes{
+    padding: 17px;
+    border-radius: 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3) ;
+    font-size: 18px;
+    height: 200px;
+    color: darkblue;
+    background: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    resize: none;
+    border: none;
+    outline: none;
+    
+  }
+  .notes::placeholder{
+    color: gray;
+    opacity: 30%;
+
+  }
+  .notes:hover, .notes:focus{
+    box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.3) ;
+  }
+  .button{
+    /* width: 500px; */
+    height: 150px;
+    border-color: #ffffff5e;
+    background-color: #e28ee2;
+    border-radius: 15px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #0000004d;
+    cursor: pointer;
+    /* position: absolute;
+    top: 80px;
+    left: 300px; */
+
+  }
+  .button:hover{
+    background-color: rgba(255, 255, 255, 0.55);
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .textarea{
+    width: 450px;
+    height: 150px;
+   background-color: #8f578f;
+   color: #4b4b8b;;
+  }
+  
+  .case-school{
+    display: flex;
+  }
+  .button-plus{
+    background-color: #cf1a1a;
+    color: #ffffff;
+    font-size: 40px;
+    border: none;
+    position: absolute;
+    bottom: 335px;
+    right: 515px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+  }
+  body{
+    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+.pop-up{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    padding: 0 30px 60px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s top 0.4s;
+}
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.note-pad{
+    color: #080814;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.btn{
+    background-color: #cf1a1a ;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    /* float: right; */
+    
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
